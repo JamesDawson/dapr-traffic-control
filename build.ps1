@@ -157,7 +157,6 @@ $ExcludeFilesFromCodeCoverage = ""
 # Synopsis: Build, Test and Package
 task . FullBuild
 
-
 # build extensibility tasks
 task RunFirst {}
 task PreInit {}
