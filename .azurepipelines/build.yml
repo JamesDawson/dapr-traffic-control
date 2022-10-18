@@ -17,5 +17,5 @@ jobs:
   parameters:
     vmImage: 'ubuntu-latest'
     service_connection_nuget_org: ''
-    service_connection_github: 'JamesDawson'
+    service_connection_github: 'github-jamesdawson'
     netSdkVersion: '6.x'
