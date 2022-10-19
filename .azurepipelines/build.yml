@@ -1,0 +1,15 @@
+trigger:
+  branches:
+    include:
+    - main
+  tags:
+    include:
+    - '*'
+
+jobs:
+- template: templates/build-process.yml
+  parameters:
+    vmImage: 'ubuntu-latest'
+    service_connection_nuget_org: ''
+    service_connection_github: 'github-jamesdawson'
+    netSdkVersion: '6.x'
