@@ -6,11 +6,6 @@ trigger:
     include:
     - '*'
 
-pr:
-  branches:
-    include:
-    - main
-
 jobs:
 - template: templates/build-process.yml
   parameters:
